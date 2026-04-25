@@ -1,0 +1,4 @@
+Requirement 1: Implement k-means to answer the 3 discovery questions
+Requirement 2: Implement FPgrowth to answer the 3 discovery questions
+Requirement 3: Implement isolation forest to answer a discovery question
+Requirement 4: Perform Exploratory data analysis to detect trends with the dataset
