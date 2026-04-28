@@ -1,4 +1,8 @@
-Requirement 1: Implement k-means to answer the 3 discovery questions
-Requirement 2: Implement FPgrowth to answer the 3 discovery questions
-Requirement 3: Implement isolation forest to answer a discovery question
+Data set: https://www.kaggle.com/datasets/gregorut/videogamesales/data
+Requirement 1: Implement k-means to answer the 3 discovery questions: Implement elbow methods for each implementation.
+Implementation 1: Divide game sales per region by global sales to create concentration for the 3 main regions run k-means using these 3 concentrations and release year for each game
+implementation 2: create total sales for each platform for a year and then divide the sales for the highest selling game on that platform by the total sales and run K-means using this concentration and total platform sales that year
+implementation 3:create concentrations like in implementation 1 but run K-means using these and the games global sales.
+Requirement 2: Implement FPgrowth to answer the 3 discovery questions. Create an indicator for success in the 3 main markets by finding games above the median sales in that market. create indicator for decade of release. use these indicators alongside publisher and platform to run FPgrowth.
+Requirement 3: Implement isolation forest to answer a discovery question. Use sales for each market including other and Global to run isolation forest.
 Requirement 4: Perform Exploratory data analysis to detect trends with the dataset
